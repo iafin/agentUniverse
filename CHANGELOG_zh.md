@@ -24,6 +24,21 @@ Note - 对于版本的额外说明。
 ***************************************************
 
 # 版本更新记录
+## [0.0.9] - 2024-06-14
+### Added
+- LLM组件新增claude、ollama标准接入
+- 新增qwen embedding模块
+- 新增ReAct、nl2api默认agent
+
+### Note
+- 新增使用案例
+  - RAG类Agent案例-法律咨询Agent
+  - ReAct类Agent案例-Python代码生成与执行Agent
+  - 多智能体案例-基于多轮多Agent的讨论小组
+
+  详情请看用户文档案例部分。
+- 部分代码优化与文档更新
+
 ## [0.0.8] - 2024-06-06
 ### Added
 - 新增monitor模块
@@ -31,7 +46,7 @@ Note - 对于版本的额外说明。
 - 新增webserver post_fork功能
   - 开放agentUniverse中webserver启动后的多节点流程干预功能
 - 新增SQLDB_WRAPPER包装类，提供典型数据库连接方式
-  - 通过SQLDB_WRAPPER包装类您可以非常方便的连接如SQLite、MySQL、Oracle、PostgreSQL、SQLite等几十种数据库与存储技术组件。
+  - 通过SQLDB_WRAPPER包装类您可以非常方便的连接如SQLServer、MySQL、Oracle、PostgreSQL、SQLite等几十种数据库与存储技术组件。
 - 新增milvus向量数据库组件连接
 
 上述功能更多用法请关注agentUniverse指导手册部分。
